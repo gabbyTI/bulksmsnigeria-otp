@@ -3,12 +3,14 @@
     "description": "A laravel package for sending otp to mobile phone",
     "type": "project",
     "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
     "authors": [{
         "name": "Gabriel Ibenye",
         "email": "gabrielibenye@gmail.com"
     }],
     "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4": {
             "Gabbyti\\BulkSmsNigeriaOtp\\": "src/"
